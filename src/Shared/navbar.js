@@ -18,7 +18,7 @@ function Nav() {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary shadow">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary shadow border rounded-4">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">Navbar</a>
         <button

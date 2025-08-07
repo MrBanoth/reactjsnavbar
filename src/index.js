@@ -4,14 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter ,Routes , Route } from 'react-router-dom';
-import Nav from './Shared/navbar';
+import Home from './Home/home';
+import Navbar from './Shared/navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
      <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Nav />} />
+            <Route path="/" element={< Home/>} />
           </Routes>
      </BrowserRouter>
   </React.StrictMode>
